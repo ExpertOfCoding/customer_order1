@@ -1,0 +1,161 @@
+/* Temel stil tanımlamaları */
+body {
+  font-family: 'Arial', sans-serif; /* Varsayılan yazı tipi ayarları */
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  background-color: hsla(0, 0%, 93%, 0.301);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ekran yüksekliği kadar yükseklik ayarlanıyor */
+  padding: 50px 0; /* Üst ve alt boşluklarını ayarlamak için */
+}
+
+/* "back_button" stil tanımlaması */
+.back_button {
+  margin-bottom: 20px;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Düzenlemelerin yumuşak geçiş yapması için */
+}
+
+.back_button:hover {
+  background-color: #2980b9; /* Hover durumunda renk değişikliği */
+}
+
+/* Genel buton stil tanımlamaları */
+.back_button {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #2ecc71; /* Yeşil renk tonu */
+  color:#333333; /* Beyaz yazı rengi */
+  transition: background-color 0.3s; /* Düzenlemelerin yumuşak geçiş yapması için */
+}
+
+.back_button:hover {
+  background-color: #27ae60; /* Hover durumunda renk değişikliği */
+}
+
+/* Focused olan içerik stil tanımlaması */
+.content {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif bir gölge efekti eklemek için */
+}
+
+/* ... (Önceki stil tanımlamaları) ... */
+
+/* Özel stil tanımlamaları */
+.idari,
+.sinif,
+.kantin,
+.ogretmenler_odasi {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #333333;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s; /* Düzenlemelerin yumuşak geçiş yapması için */
+  margin-bottom: 15px; /* Butonlar arasında boşluk bırakmak için */
+}
+
+.idari {
+  background-color: #ff1900de; /* Kırmızı tonu */
+}
+
+.sinif {
+  background-color: #0094f7c5; /* Mavi tonu */
+}
+
+.kantin {
+  background-color: #ff9d00da; /* Turuncu tonu */
+}
+
+.ogretmenler_odasi {
+  background-color: #8081b9; /* Yeşil tonu */
+}
+
+.idari:hover,
+.sinif:hover,
+.kantin:hover,
+.ogretmenler_odasi:hover {
+  opacity: 0.9; /* Hover durumunda hafif bir opaklık eklemek için */
+}
+
+/* ... (Diğer stil tanımlamaları) ... */
+
+/* ... (Önceki stil tanımlamaları) ... */
+
+/* Özel stil tanımlamaları */
+
+.paragraph_container::-webkit-scrollbar {
+  width: 10px; /* Kaydırma çubuğunun genişliği */
+  display: block;
+}
+
+.paragraph_container::-webkit-scrollbar-thumb {
+  background-color: #888; /* Çubuğun rengi */
+  border-radius: 10px; /* Yuvarlatılmış köşeler */
+}
+
+.paragraph_container::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Çubuğun hover rengi */
+}
+.paragraph_container::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  margin-bottom: 15px; 
+}
+
+.paragraph_container::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: 25px;
+}
+.paragraph_container {
+  overflow:auto;
+  background-color: #ffffff; /* Beyaz arka plan rengi */
+  padding: 30px; /* İçerik alanını genişletmek için dış boşluk */
+  border-radius: 8px; /* Köşeleri yuvarlatmak için */
+  margin-top: 30px; /* Diğer içeriklerden boşluk bırakmak için */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Hafif bir gölge efekti eklemek için */
+  border: 1px solid #e0e0e0; /* Hafif bir çerçeve sınırı eklemek için */
+}
+
+.paragraph {
+  font-size: 18px; /* Daha büyük bir yazı boyutu */
+  line-height: 1.8; /* Satır yüksekliğini artırarak okunabilirliği artırma */
+  color: #333333; /* Daha koyu bir metin rengi */
+}
+
+/* ... (Diğer stil tanımlamaları) ... */
+.not_able {
+  opacity: 0.5;
+}
+.not_able:hover{
+  background-color: #46464679;
+  opacity: 0.5;
+}
+
+.heades{
+  color:black;
+  font-size: 1.2rem;
+}
+.smaller{
+  color: #000000;
+}
